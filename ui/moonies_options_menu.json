@@ -1,0 +1,43 @@
+{
+        "ui" : {
+            "2" : {
+                "type" : "button",
+                "text" : "Volume",
+                "click" : "signal new game",
+                "x" : 480,
+                "y" : 450,
+                "w" : 0,
+                "h" : 0
+            },
+            "3" : {
+                "type" : "button",
+                "text" : "Resolution",
+                "click" : "signal new game",
+                "x" : 480,
+                "y" : 350,
+                "w" : 0,
+                "h" : 0
+            },
+            "4" : {
+                "type" : "button",
+                "text" : "Fullscreen",
+                "click" : "signal new game",
+                "x" : 480,
+                "y" : 250,
+                "w" : 0,
+                "h" : 0
+            },
+            "5" : {
+                "type" : "button",
+                "text" : "Back to Main Menu",
+                "click" : {
+                    "signal" : "change scene",
+                    "value" : "Main Menu"
+                },
+                "x" : 480,
+                "y" : 150,
+                "w" : 0,
+                "h" : 0
+            }
+        }
+}

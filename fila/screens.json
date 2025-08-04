@@ -1,0 +1,12 @@
+{
+    "main" : { "main menu view" : "main menu view" },
+    "about" : {},
+    "settings" : {},
+    "new game landing" : {},
+    "game factory" : {},
+    "game processing" : {},
+    "game moon" : {},
+    "game stats" : {},
+    "game over victory" : {},
+    "game over defeat" : {}
+}

@@ -1,0 +1,64 @@
+{
+    "menu main" : {
+        "background" : {},
+        "views" : {
+            "menu main view" : {}
+        },
+        "ui" : {
+            "1" : {
+                "type" : "image",
+                "src" : "title card",
+                "x" : 0,
+                "y" : 0,
+                "w" : 0,
+                "h" : 0
+            },
+            "2" : {
+                "type" : "button",
+                "text" : "New Game",
+                "click" : "signal new game",
+                "x" : 0,
+                "y" : 0,
+                "w" : 0,
+                "h" : 0
+            },
+            "3" : {
+                "type" : "button",
+                "text" : "Options",
+                "click" : "signal new game",
+                "x" : 0,
+                "y" : 0,
+                "w" : 0,
+                "h" : 0
+            },
+            "4" : {
+                "type" : "button",
+                "text" : "About",
+                "click" : "signal new game",
+                "x" : 0,
+                "y" : 0,
+                "w" : 0,
+                "h" : 0
+            },
+            "5" : {
+                "type" : "button",
+                "text" : "Quit to Desktop",
+                "click" : "signal new game",
+                "x" : 0,
+                "y" : 0,
+                "w" : 0,
+                "h" : 0
+            }
+        }
+    },
+    "menu settings" : {
+        "views" : {
+            "menu settings view" : {}
+        }
+    },
+    "menu about" : {
+        "views" : {
+            "menu about view" : {}
+        }
+    }
+}

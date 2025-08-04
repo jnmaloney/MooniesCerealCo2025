@@ -1,0 +1,35 @@
+{
+    "config" : "file",
+    
+    "use_fila" : true,
+    "load_scene" : false,
+
+    "font" : "font\\NovaSquare-Regular.ttf",
+
+    "background_fill" : { 
+        "r" : 0.235, 
+        "g" : 0.380, 
+        "b" : 0.631 
+    },
+
+    "background_music" : "music/moonies_theme_loop.ogg",
+    "background_music_loop" : true,
+    "fila_load_resources_path" : "fila/",
+    "fila_load_resources" : "fila/resources.json",
+
+    "audio_hover" : "ui/click/click.7.ogg",
+    "audio_click" : "ui/click/click.2.ogg",
+
+    "ui_scene_list" : 
+    {
+        "Main Menu" : "ui/moonies_main_menu.json",
+        "About Menu" : "ui/moonies_about_menu.json",
+        "Options Menu" : "ui/moonies_options_menu.json",
+        "Pause Menu" : "ui/moonies_pause_menu.json"
+    },
+
+    "fila_scene_list" :
+    {
+        "New Game" : "game/moonies_new_game.json"
+    }
+}

@@ -1,0 +1,60 @@
+{
+        "ui" : {
+            "1" : {
+                "type" : "image",
+                "file" : "title card",
+                "src" : "title card",
+                "x" : 140,
+                "y" : 225,
+                "w" : 510,
+                "h" : 315
+            },
+            "2" : {
+                "type" : "button",
+                "text" : "New Game",
+                "click" : {
+                    "signal" : "change scene",
+                    "value" : "New Game"
+                },
+                "x" : 780,
+                "y" : 450,
+                "w" : 0,
+                "h" : 0
+            },
+            "3" : {
+                "type" : "button",
+                "text" : "Options",
+                "click" : {
+                    "signal" : "change scene",
+                    "value" : "Options Menu"
+                },
+                "x" : 780,
+                "y" : 350,
+                "w" : 0,
+                "h" : 0
+            },
+            "4" : {
+                "type" : "button",
+                "text" : "About",
+                "click" : {
+                    "signal" : "change scene",
+                    "value" : "About Menu"
+                },
+                "x" : 780,
+                "y" : 250,
+                "w" : 0,
+                "h" : 0
+            },
+            "5" : {
+                "type" : "button",
+                "text" : "Quit to Desktop",
+                "click" : {
+                    "signal" : "quit"
+                },
+                "x" : 780,
+                "y" : 150,
+                "w" : 0,
+                "h" : 0
+            }
+        }
+}

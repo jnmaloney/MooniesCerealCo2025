@@ -1,0 +1,16 @@
+{
+    "autoload" : {
+        "meshes" : {},
+        "materials" : {
+            "my_ui" : "my_ui.filamat",
+            "texturedLit" : "texturedLit.filamat",
+            "sandboxUnlit" : "sandboxUnlit.filamat"
+        },
+        "sky" : {},
+        "ibl" : {},
+        "textures" : {
+            "title card" : "title/title card.png",
+            "albedo" : "normal.png"
+        }
+    }
+}
