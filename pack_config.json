@@ -16,6 +16,7 @@
     "background_music_loop" : true,
     "fila_load_resources_path" : "fila/",
     "fila_load_resources" : "fila/resources.json",
+    "fila_material_instances" : "fila/materials.json",
 
     "audio_hover" : "ui/click/click.7.ogg",
     "audio_click" : "ui/click/click.2.ogg",
@@ -25,11 +26,42 @@
         "Main Menu" : "ui/moonies_main_menu.json",
         "About Menu" : "ui/moonies_about_menu.json",
         "Options Menu" : "ui/moonies_options_menu.json",
-        "Pause Menu" : "ui/moonies_pause_menu.json"
+        "Pause Menu" : "ui/moonies_pause_menu.json",
+        "Game HUD" : "ui/moonies_hud.json"
     },
 
     "fila_scene_list" :
     {
-        "New Game" : "game/moonies_new_game.json"
+        "New Game" : "game/moonies_new_game.json",
+        "Game Econ" : "game/moonies_econ.json",
+        "Game Processing" : "game/moonies_processing.json",
+        "Game Mining" : "game/moonies_mining.json"
+    },
+
+    "scene_combo_views" : {
+        "Main Menu" : {
+            "1" : "Main Menu"
+        },
+        "About Menu" : {
+            "1" : "About Menu"
+        },
+        "Options Menu" : {
+            "1" : "Options Menu"
+        },
+        "Gameplay Home" : {
+            "1" : "New Game",
+            "2" : "Game HUD"
+        },
+        "Gameplay Econ" : {
+            "1" : "Game Econ",
+            "2" : "Game HUD"
+        },
+        "Gameplay Processing" : {
+            "2" : "Game HUD"
+        },
+        "Gameplay Mining" : {
+            "1" : "Game Mining",
+            "2" : "Game HUD"
+        }
     }
 }

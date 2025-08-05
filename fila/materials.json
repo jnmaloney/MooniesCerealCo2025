@@ -1,0 +1,14 @@
+{
+    "material instances" : {
+        "cube_instance" : {
+            "program" : "texturedLit",
+            "params" : {}
+        },
+        "conveyor belt" : {
+            "program" : "my_textured_lit",
+            "params" : {
+                "albedo" : "albedo"
+            }        
+        }
+    }
+}

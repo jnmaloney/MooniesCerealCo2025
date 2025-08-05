@@ -1,0 +1,64 @@
+{
+        "ui" : {
+            "1a" : {
+                "type" : "button",
+                "text" : "Home",
+                "click" : {
+                    "signal" : "change scene",
+                    "value" : "Gameplay Home"
+                },
+                "x" : 100,
+                "y" : 32,
+                "w" : 0,
+                "h" : 0
+            },
+            "2a" : {
+                "type" : "button",
+                "text" : "Econ",
+                "click" : {
+                    "signal" : "change scene",
+                    "value" : "Gameplay Econ"
+                },                
+                "x" : 250,
+                "y" : 32,
+                "w" : 0,
+                "h" : 0
+            },
+            "2b" : {
+                "type" : "button",
+                "text" : "Processing",
+                "click" : {
+                    "signal" : "change scene",
+                    "value" : "Gameplay Processing"
+                },
+                "x" : 400,
+                "y" : 32,
+                "w" : 0,
+                "h" : 0
+            },
+            "2c" : {
+                "type" : "button",
+                "text" : "Mining",
+                "click" : {
+                    "signal" : "change scene",
+                    "value" : "Gameplay Mining"
+                },                
+                "x" : 550,
+                "y" : 32,
+                "w" : 0,
+                "h" : 0
+            },                        
+            "3" : {
+                "type" : "button",
+                "text" : "Back to menu",
+                "click" : {
+                    "signal" : "change scene",
+                    "value" : "Main Menu"
+                },
+                "x" : 700,
+                "y" : 32,
+                "w" : 0,
+                "h" : 0
+            }
+        }
+}

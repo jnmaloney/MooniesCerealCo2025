@@ -1,9 +1,13 @@
 {
     "autoload" : {
-        "meshes" : {},
+        "meshes" : {
+            "conveyor" : "objects/conveyor/conveyor bake.filamesh",
+            "conveyor belt" : "objects/conveyor/conveyor belt isolated.filamesh"
+        },
         "materials" : {
             "my_ui" : "my_ui.filamat",
             "texturedLit" : "texturedLit.filamat",
+            "my_textured_lit" : "my_textured_lit.filamat",
             "sandboxUnlit" : "sandboxUnlit.filamat"
         },
         "sky" : {},

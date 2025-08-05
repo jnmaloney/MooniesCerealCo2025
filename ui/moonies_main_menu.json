@@ -14,7 +14,7 @@
                 "text" : "New Game",
                 "click" : {
                     "signal" : "change scene",
-                    "value" : "New Game"
+                    "value" : "Gameplay Home"
                 },
                 "x" : 780,
                 "y" : 450,

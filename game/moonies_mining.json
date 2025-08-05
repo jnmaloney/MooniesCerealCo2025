@@ -22,22 +22,6 @@
             "x" : 78,
             "y" : 45,
             "z" : 0
-        },
-        "1" : {
-            "type" : "mesh",
-            "src" : "conveyor",
-            "material" : "cube_instance",
-            "x" : 78,
-            "y" : 45,
-            "z" : 0
-        },
-        "2" : {
-            "type" : "mesh",
-            "src" : "conveyor belt",
-            "material" : "conveyor belt",
-            "x" : 78,
-            "y" : 45,
-            "z" : 0
         }
     }
 }
