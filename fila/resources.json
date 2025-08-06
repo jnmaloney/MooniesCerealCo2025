@@ -10,11 +10,21 @@
             "my_textured_lit" : "my_textured_lit.filamat",
             "sandboxUnlit" : "sandboxUnlit.filamat"
         },
-        "sky" : {},
+        "sky" : {
+            "lightroom_14b" : {
+                "skybox" : "fila/ibl/lightroom_14b/lightroom_14b_skybox.ktx",
+                "ibl" : "fila/ibl/lightroom_14b/lightroom_14b_ibl.ktx"
+            }
+        },
         "ibl" : {},
         "textures" : {
             "title card" : "title/title card.png",
-            "albedo" : "normal.png"
+            "albedo" : "normal.png",
+            "normal" : "normal.png",
+            "conveyor_side_albedo" : "objects/conveyor/conveyor_side.png",
+            "conveyor_albedo" : "objects/conveyor/conveyor_tile.png",
+            "conveyor_body_albedo" : "objects/conveyor/ao_target.png"
+
         }
     }
 }

@@ -19,9 +19,8 @@
         },
         "Light" : {
             "type" : "light",
-            "x" : 78,
-            "y" : 45,
-            "z" : 0
+            "intensity" : 11
+
         }
     }
 }

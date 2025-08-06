@@ -11,6 +11,12 @@
             }
     },
     "fila" : {
+        "Sky" : {
+            "type" : "sky",
+            "skybox" : "lightroom_14b",
+            "ibl" : "lightroom_14b",
+            "intensity" : 3.0
+        },
         "Camera" : {
             "type" : "camera",
             "x" : 78,
@@ -19,9 +25,7 @@
         },
         "Light" : {
             "type" : "light",
-            "x" : 78,
-            "y" : 45,
-            "z" : 0
+            "intensity" : 6
         },
         "1" : {
             "type" : "mesh",

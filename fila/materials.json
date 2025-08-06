@@ -9,6 +9,24 @@
             "params" : {
                 "albedo" : "albedo"
             }        
+        },
+        "Material" : {
+            "program" : "my_textured_lit",
+            "params" : {
+                "albedo" : "conveyor_body_albedo"
+            }      
+        },
+        "Conveyor" : {
+            "program" : "my_textured_lit",
+            "params" : {
+                "albedo" : "conveyor_albedo"
+            }   
+        },
+        "Conveyor_Side" : {
+            "program" : "my_textured_lit",
+            "params" : {
+                "albedo" : "conveyor_side_albedo"
+            }   
         }
     }
 }
