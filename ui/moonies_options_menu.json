@@ -1,7 +1,7 @@
 {
         "ui" : {
             "2" : {
-                "type" : "button",
+                "type" : "label",
                 "text" : "Volume",
                 "click" : "signal new game",
                 "x" : 480,
@@ -10,7 +10,7 @@
                 "h" : 0
             },
             "3" : {
-                "type" : "button",
+                "type" : "label",
                 "text" : "Resolution",
                 "click" : "signal new game",
                 "x" : 480,
@@ -19,7 +19,7 @@
                 "h" : 0
             },
             "4" : {
-                "type" : "button",
+                "type" : "checkbox",
                 "text" : "Fullscreen",
                 "click" : "signal new game",
                 "x" : 480,
