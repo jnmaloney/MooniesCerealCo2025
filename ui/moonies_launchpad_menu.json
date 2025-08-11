@@ -1,0 +1,44 @@
+{
+        "ui" : {
+            "1xxx" : {
+                "type" : "label",
+                "text" : "some launchpad label",
+                "x" : 140,
+                "y" : 225,
+                "w" : 510,
+                "h" : 315
+            },
+            "2a" : {
+                "type" : "button",
+                "text" : "Buy Ship",
+                "click" : {
+                    "signal" : "action",
+                    "value" : "Buy Ship"
+                },                
+                "x" : 250,
+                "y" : 232,
+                "w" : 0,
+                "h" : 0
+            },
+            "2b" : {
+                "type" : "button",
+                "text" : "Launch",
+                "click" : {
+                    "signal" : "action",
+                    "value" : "Launch"
+                },
+                "x" : 400,
+                "y" : 232,
+                "w" : 0,
+                "h" : 0
+            },
+            "somethinggsasdsd" : {
+                "type" : "active_label",
+                "text" : "#fleet_status",
+                "x" : 680,
+                "y" : 400,
+                "w" : 0,
+                "h" : 0
+            }
+        }
+}

@@ -27,7 +27,9 @@
         "About Menu" : "ui/moonies_about_menu.json",
         "Options Menu" : "ui/moonies_options_menu.json",
         "Pause Menu" : "ui/moonies_pause_menu.json",
-        "Game HUD" : "ui/moonies_hud.json"
+        "Game HUD" : "ui/moonies_hud.json",
+        "Game Launchpad Menu" : "ui/moonies_launchpad_menu.json",
+        "Game Processing Menu" : "ui/moonies_processing_menu.json"
     },
 
     "fila_scene_list" :
@@ -35,7 +37,8 @@
         "New Game" : "game/moonies_new_game.json",
         "Game Econ" : "game/moonies_econ.json",
         "Game Processing" : "game/moonies_processing.json",
-        "Game Mining" : "game/moonies_mining.json"
+        "Game Mining" : "game/moonies_mining.json",
+        "Game Launchpad" : "game/moonies_processing.json"
     },
 
     "scene_combo_views" : {
@@ -56,8 +59,13 @@
             "1" : "Game Econ",
             "2" : "Game HUD"
         },
+        "Gameplay Launchpad" : {
+            "2" : "Game HUD",
+            "3" : "Game Launchpad Menu"
+        },        
         "Gameplay Processing" : {
-            "2" : "Game HUD"
+            "2" : "Game HUD",
+            "3" : "Game Processing Menu"
         },
         "Gameplay Mining" : {
             "1" : "Game Mining",

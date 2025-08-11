@@ -1,5 +1,45 @@
 {
         "ui" : {
+            "heading_Left1" : {
+                "type" : "label",
+                "text" : "Day",
+                "x" : 80,
+                "y" : 750,
+                "w" : 0,
+                "h" : 0
+            },
+            "heading_Center1" : {
+                "type" : "label",
+                "text" : "Rocks",
+                "x" : 480,
+                "y" : 750,
+                "w" : 0,
+                "h" : 0
+            },
+            "heading_Center2" : {
+                "type" : "active_label",
+                "text" : "#rocks",
+                "x" : 480,
+                "y" : 700,
+                "w" : 0,
+                "h" : 0
+            },            
+            "heading_Right1" : {
+                "type" : "label",
+                "text" : "Cash",
+                "x" : 880,
+                "y" : 750,
+                "w" : 0,
+                "h" : 0
+            },
+            "heading_Right2" : {
+                "type" : "active_label",
+                "text" : "#cash",
+                "x" : 880,
+                "y" : 700,
+                "w" : 0,
+                "h" : 0
+            },            
             "1a" : {
                 "type" : "button",
                 "text" : "Home",
@@ -14,10 +54,10 @@
             },
             "2a" : {
                 "type" : "button",
-                "text" : "Econ",
+                "text" : "Launchpad",
                 "click" : {
                     "signal" : "change scene",
-                    "value" : "Gameplay Econ"
+                    "value" : "Gameplay Launchpad"
                 },                
                 "x" : 250,
                 "y" : 32,
