@@ -1,5 +1,163 @@
 {
         "ui" : {
+            "special" : {
+                "type" : "ProcessingMachines",
+                "ui" : {
+                    "1a" : {
+                        "type" : "button",
+                        "text" : "Up",
+                        "click" : {
+                            "signal" : "action",
+                            "value" : "Upgrade"
+                        },
+                        "minlevel" : 1,
+                        "maxlevel" : 0,                
+                        "x" : 650,
+                        "y" : 132,
+                        "w" : 0,
+                        "h" : 0
+                    },
+                    "1b" : {
+                        "type" : "button",
+                        "text" : "Repair",
+                        "click" : {
+                            "signal" : "action",
+                            "value" : "Repair",
+                            "conveyor" : "conveyor.1"
+                        },
+                        "minlevel" : 1,
+                        "maxlevel" : 0,                        
+                        "x" : 800,
+                        "y" : 132,
+                        "w" : 0,
+                        "h" : 0
+                    },
+                    "1" : {
+                        "type" : "percentage",
+                        "text" : "conveyor.1",
+                        "minlevel" : 1,
+                        "maxlevel" : 0,                        
+                        "x" : 700,
+                        "y" : 132,
+                        "w" : 90,
+                        "h" : 60
+                    },
+                    "1up2" : {
+                        "type" : "button",
+                        "text" : "Buy new",
+                        "click" : {
+                            "signal" : "action",
+                            "value" : "Build Conveyor"
+                        },                        
+                        "minlevel" : 1,
+                        "maxlevel" : 1,                        
+                        "x" : 650,
+                        "y" : 232,
+                        "w" : 0,
+                        "h" : 0
+                    },
+                    
+                                        
+                    "2a" : {
+                        "type" : "button",
+                        "text" : "Up",
+                        "click" : {
+                            "signal" : "action",
+                            "value" : "Upgrade"
+                        },
+                        "minlevel" : 2,
+                        "maxlevel" : 4,
+                        "x" : 650,
+                        "y" : 232,
+                        "w" : 0,
+                        "h" : 0
+                    },
+                    "2b" : {
+                        "type" : "button",
+                        "text" : "Repair",
+                        "click" : {
+                            "signal" : "action",
+                            "value" : "Repair",
+                            "conveyor" : "conveyor.2"
+                        },
+                        "minlevel" : 2,
+                        "maxlevel" : 4,
+                        "x" : 800,
+                        "y" : 232,
+                        "w" : 0,
+                        "h" : 0
+                    },
+                    "2" : {
+                        "type" : "percentage",
+                        "text" : "conveyor.2",
+                        "minlevel" : 2,
+                        "maxlevel" : 4,
+                        "x" : 700,
+                        "y" : 232,
+                        "w" : 90,
+                        "h" : 60
+                    },
+                    "2up3" : {
+                        "type" : "button",
+                        "text" : "Buy new2",
+                        "click" : {
+                            "signal" : "action",
+                            "value" : "Build Conveyor"
+                        },                        
+                        "minlevel" : 2,
+                        "maxlevel" : 2,                        
+                        "x" : 650,
+                        "y" : 332,
+                        "w" : 0,
+                        "h" : 0
+                    },                   
+                                        
+                    "3a" : {
+                        "type" : "button",
+                        "text" : "Up",
+                        "minlevel" : 3,
+                        "maxlevel" : 4,
+                        "click" : {
+                            "signal" : "action",
+                            "value" : "Upgrade"
+                        },                
+                        "x" : 650,
+                        "y" : 332,
+                        "w" : 0,
+                        "h" : 0
+                    },
+                    "3b" : {
+                        "type" : "button",
+                        "text" : "Repair",
+                        "minlevel" : 3,
+                        "maxlevel" : 4,
+                        "click" : {
+                            "signal" : "action",
+                            "value" : "Repair",
+                            "conveyor" : "conveyor.3"
+                        },
+                        "x" : 800,
+                        "y" : 332,
+                        "w" : 0,
+                        "h" : 0
+                    },
+                    "3" : {
+                        "type" : "percentage",
+                        "text" : "conveyor.3",
+                        "minlevel" : 3,
+                        "maxlevel" : 4,
+                        "x" : 700,
+                        "y" : 332,
+                        "w" : 90,
+                        "h" : 60
+                    }                    
+                }
+            },
+            "floor_changer" : {
+                "type" : "floor_changer",
+                "minlevel" : 0,
+                "maxlevel" : 0                        
+            },            
             "1xxx" : {
                 "type" : "label",
                 "text" : "processing",
@@ -7,30 +165,6 @@
                 "y" : 225,
                 "w" : 510,
                 "h" : 315
-            },
-            "2a" : {
-                "type" : "button",
-                "text" : "Upgrade",
-                "click" : {
-                    "signal" : "action",
-                    "value" : "Upgrade"
-                },                
-                "x" : 250,
-                "y" : 232,
-                "w" : 0,
-                "h" : 0
-            },
-            "2b" : {
-                "type" : "button",
-                "text" : "Repair",
-                "click" : {
-                    "signal" : "action",
-                    "value" : "Repair"
-                },
-                "x" : 400,
-                "y" : 232,
-                "w" : 0,
-                "h" : 0
             },
             "somethinggsasdsd" : {
                 "type" : "active_label",
